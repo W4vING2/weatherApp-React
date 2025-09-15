@@ -6,6 +6,7 @@ Styles: SCSS, modules.
 Script: Javascript.
 Framework: React.
 Tools: Git, Vite.
+Linters: ESLint, Stylelint, prettier.
 
 
 # React + Vite
