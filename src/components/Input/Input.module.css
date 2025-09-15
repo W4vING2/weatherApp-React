@@ -13,19 +13,22 @@
 }
 #input:focus {
   outline: none;
-  box-shadow: inset 2px 2px 4px var(--primary), inset -2px -2px 4px var(--primary);
+  box-shadow:
+    inset 2px 2px 4px var(--primary),
+    inset -2px -2px 4px var(--primary);
 }
 #input::placeholder {
   color: var(--primary);
 }
 
 #button {
+  z-index: 9999;
   position: absolute;
   border: none;
   outline: none;
   background-color: transparent;
-  right: 20px;
-  top: 88px;
+  right: 30px;
+  top: 100px;
 }
 
 /*# sourceMappingURL=Input.module.css.map */

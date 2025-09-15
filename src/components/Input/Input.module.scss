@@ -1,4 +1,4 @@
-#input{
+#input {
   width: 250px;
   height: 35px;
   text-align: start;
@@ -10,21 +10,23 @@
   font-weight: 600;
   transition: all 0.4s ease;
   color: var(--secondary);
-  &:focus{
+  &:focus {
     outline: none;
-    box-shadow: inset 2px 2px 4px var(--primary),
-    inset -2px -2px 4px var(--primary);
+    box-shadow:
+      inset 2px 2px 4px var(--primary),
+      inset -2px -2px 4px var(--primary);
   }
-  &::placeholder{
+  &::placeholder {
     color: var(--primary);
   }
 }
 
-#button{
+#button {
+  z-index: 9999;
   position: absolute;
   border: none;
   outline: none;
   background-color: transparent;
-  right: 20px;
-  top: 88px;
+  right: 30px;
+  top: 100px;
 }

@@ -8,7 +8,6 @@ Framework: React.
 Tools: Git, Vite.
 Linters: ESLint, Stylelint, prettier.
 
-
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

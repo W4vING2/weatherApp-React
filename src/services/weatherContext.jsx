@@ -1,11 +1,11 @@
-import {useState, createContext} from "react";
+import { useState, createContext } from 'react'
 
 export const WeatherContext = createContext({})
 
-export const WeatherProvider = ({children}) => {
+export const WeatherProvider = ({ children }) => {
   const [weatherData, setWeatherData] = useState({})
   return (
-    <WeatherContext.Provider value={{weatherData, setWeatherData}}>
+    <WeatherContext.Provider value={{ weatherData, setWeatherData }}>
       {children}
     </WeatherContext.Provider>
   )
