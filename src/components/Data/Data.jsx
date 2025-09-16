@@ -1,5 +1,8 @@
 import styles from './Data.module.css'
 import DataActions from '../DataActions/DataActions.jsx'
+import windLogo from '../../assets/wind-icon.svg'
+import humidityLogo from '../../assets/humidity-icon.svg'
+import errorImg from '../../assets/404-img.jpeg'
 
 export default function Data({
   city,
@@ -16,7 +19,7 @@ export default function Data({
     <>
       {isError ? (
         <div id={styles.error} className={theme === 'light' ? styles.light : styles.dark}>
-          <img src="../../assets/404-img.jpeg" alt="404-error" />
+          <img src={errorImg} alt="404-error" />
           <p className={styles.p_error}>Oops, incorrect request!</p>
         </div>
       ) : (
@@ -28,13 +31,13 @@ export default function Data({
           <DataActions
             data={windSpeed + 'km/h'}
             imgAlt="wind-icon"
-            imgSrc="../../../public/wind-icon.svg"
+            imgSrc={windLogo}
             info="Speed:"
           />
           <DataActions
             data={humidity + '%'}
             imgAlt="humidity-icon"
-            imgSrc="../../../public/humidity-icon.svg"
+            imgSrc={humidityLogo}
             info="Humidity:"
             isLastItem
           />
