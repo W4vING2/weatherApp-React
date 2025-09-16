@@ -13,6 +13,10 @@ body {
   font-family: 'Titan One', sans-serif;
 }
 
+*{
+  transition: all 0.4s ease;
+}
+
 #root {
   position: relative;
   text-align: center;

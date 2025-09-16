@@ -10,16 +10,17 @@ export default function Data({
   humidity,
   isLoaded,
   isError,
+  theme
 }) {
   return (
     <>
       {isError ? (
-        <div className={styles.error}>
+        <div id={styles.error} className={theme === 'light' ? styles.light : styles.dark}>
           <img src="../../../public/404-img.jpeg" alt="404-error" />
-          <p className={styles.p}>Oops, incorrect request!</p>
+          <p className={styles.p_error}>Oops, incorrect request!</p>
         </div>
       ) : (
-        <div className={isLoaded ? styles.loaded : ''}>
+        <div id={isLoaded ? styles.loaded : ''} className={theme === 'light' ? styles.light : styles.dark}>
           <h2 className={styles.heading}>Weather in {city}</h2>
           <p className={styles.p}>{Math.floor(temp)}C</p>
           <p className={styles.p}>{weather}</p>

@@ -7,19 +7,32 @@
   font-size: 28px;
 }
 
-.error {
+.p_error{
+  font-size: 16px;
+  color: var(--secondary);
+}
+
+.light{
+  color-scheme: light;
+}
+.dark{
+  color-scheme: light dark;
+}
+
+#error {
+  animation: loading 0.8s ease;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 35px;
   & > img {
-    width: 250px;
+    width: 200px;
     height: 180px;
   }
 }
 
-.loaded {
-  animation: loading 0.4s ease;
+#loaded {
+  animation: loading 0.8s ease;
 }
 
 @keyframes loading {

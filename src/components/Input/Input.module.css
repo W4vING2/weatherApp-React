@@ -13,9 +13,7 @@
 }
 #input:focus {
   outline: none;
-  box-shadow:
-    inset 2px 2px 4px var(--primary),
-    inset -2px -2px 4px var(--primary);
+  box-shadow: inset 2px 2px 4px var(--primary), inset -2px -2px 4px var(--primary);
 }
 #input::placeholder {
   color: var(--primary);
@@ -29,6 +27,14 @@
   background-color: transparent;
   right: 30px;
   top: 100px;
+}
+
+.light {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: light dark;
 }
 
 /*# sourceMappingURL=Input.module.css.map */

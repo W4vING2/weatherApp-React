@@ -1,5 +1,13 @@
 :root {
-  --primary: #9575cd;
-  --secondary: #ede7f6;
-  --accent: #673ab7;
+  --primary: light-dark(#9575cd, #b39ddb);
+  --secondary: light-dark(#ede7f6, #3e148d);
+  --accent: light-dark(#673ab7, #121212);
+  color-scheme: light;
+}
+
+.light{
+  color-scheme: light;
+}
+.dark{
+  color-scheme: light dark;
 }

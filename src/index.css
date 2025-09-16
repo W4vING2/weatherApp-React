@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -9,7 +9,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Titan One', sans-serif;
+  font-family: "Titan One", sans-serif;
+}
+
+* {
+  transition: all 0.4s ease;
 }
 
 #root {
@@ -22,15 +26,19 @@ body {
   padding: 12px;
 }
 
-h1 {
-  color: var(--secondary);
-  font-weight: 500;
+:root {
+  --primary: light-dark(#9575cd, #b39ddb);
+  --secondary: light-dark(#ede7f6, #3e148d);
+  --accent: light-dark(#673ab7, #121212);
+  color-scheme: light;
 }
 
-:root {
-  --primary: #9575cd;
-  --secondary: #ede7f6;
-  --accent: #673ab7;
+.light {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: light dark;
 }
 
 /*# sourceMappingURL=index.css.map */
