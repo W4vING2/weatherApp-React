@@ -37,3 +37,9 @@
 .dark{
   color-scheme: light dark;
 }
+
+@media (max-width: 600px){
+  #button{
+    top: 100px;
+  }
+}
