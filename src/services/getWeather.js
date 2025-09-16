@@ -8,6 +8,7 @@ export default function getWeather(
 ) {
   setIsError(false)
   setIsDataLoaded(false)
+  if (!inputValue) return
   fetch(
     `https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=9304ca1da5ba357cf87e00d55ff74cde&units=metric`,
   )
