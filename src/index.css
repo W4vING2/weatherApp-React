@@ -22,6 +22,7 @@ body {
   border-radius: 12px;
   background-color: var(--accent);
   min-width: 300px;
+  max-width: 324px;
   min-height: 150px;
   padding: 12px;
 }

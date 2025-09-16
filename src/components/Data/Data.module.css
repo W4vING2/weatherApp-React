@@ -6,6 +6,7 @@
 .heading {
   color: var(--secondary);
   font-size: 28px;
+  max-width: 300px;
 }
 
 .p_error {
