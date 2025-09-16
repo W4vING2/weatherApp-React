@@ -20,7 +20,7 @@
 }
 
 #error {
-  animation: loading 0.8s ease;
+  animation: loading 0.5s ease;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,7 +32,7 @@
 }
 
 #loaded {
-  animation: loading 0.8s ease;
+  animation: loading 0.5s ease;
 }
 
 @keyframes loading {
