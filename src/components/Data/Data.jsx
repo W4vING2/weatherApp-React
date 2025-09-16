@@ -16,7 +16,7 @@ export default function Data({
     <>
       {isError ? (
         <div id={styles.error} className={theme === 'light' ? styles.light : styles.dark}>
-          <img src="../../../public/404-img.jpeg" alt="404-error" />
+          <img src="../../assets/404-img.jpeg" alt="404-error" />
           <p className={styles.p_error}>Oops, incorrect request!</p>
         </div>
       ) : (

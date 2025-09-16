@@ -13,7 +13,7 @@ export default function Input({ onChange, value, onClick, theme }) {
       />
       <button onClick={onClick} id={styles.button} type="button" className={theme === 'light' ? styles.light : styles.dark}>
         <img
-          src="../../../public/search-icon.svg"
+          src="../../assets/search-icon.svg"
           alt="search-icon"
           className={styles.img}
         />
