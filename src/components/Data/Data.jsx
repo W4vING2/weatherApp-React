@@ -1,8 +1,8 @@
 import styles from './Data.module.css'
 import DataActions from '../DataActions/DataActions.jsx'
-import windLogo from '../../assets/wind-icon.svg'
-import humidityLogo from '../../assets/humidity-icon.svg'
-import errorImg from '../../assets/404-img.jpeg'
+import windLogo from '@/assets/wind-icon.svg'
+import humidityLogo from '@/assets/humidity-icon.svg'
+import errorImg from '@/assets/404-img.jpeg'
 
 export default function Data({
   city,
